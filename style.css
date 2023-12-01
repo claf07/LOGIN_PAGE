@@ -1,0 +1,226 @@
+.register {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    padding: 25px;
+    background-image: linear-gradient(lightblue,lightpink);
+    outline: auto;
+    outline-style: groove;
+
+}
+
+.form2 {
+    font-size: larger;
+    text-align: left;
+
+}
+
+.form2 {
+    border: black;
+    border-radius: 20px;
+    margin-right: 250px;
+    margin-left: 300px;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    text-align: left;
+    
+
+}h2,.heading
+ {
+    text-align: center;
+}
+
+.name,
+.email,
+.phone,
+.country {
+    height: 40px;
+    width: 90%;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.address {
+    border-radius: 5px;
+    width: 90%;
+    background-color: aliceblue;
+    margin-top: 10px;
+    border: none;
+    resize: none;
+
+}
+
+
+
+.country {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    height: 40px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.submit,
+.reset {
+    background-color: rgb(139, 100, 175);
+    height: 30px;
+    width: 85px;
+    border: none;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit:hover,
+.reset:hover {
+    background-color: #5c5cc8;
+}
+
+.skills {
+    margin-left: 0px;
+}
+
+.check {
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+.reg{
+    margin-left: 5px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.errors{
+    color: red;
+}
+.index{
+     margin: auto;
+     margin-top: 6%;
+    width: 100%;
+    
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background-image:linear-gradient(lightblue,lightpink,lavender);
+    height:500px;
+   
+    
+}
+.form1{
+   
+    text-align:left;
+    margin-left: 33%;
+    box-sizing: border-box;
+    box-shadow: 50%;
+    width: 500px;
+    border-radius: 5px;
+    border:thin solid black;
+    padding: 5%;
+    background-image: linear-gradient(lightpink,lightblue);
+}
+
+h1{
+    text-align: center;
+    
+    
+}
+.email1{
+    font-size: larger;
+    border: none;
+
+}
+.password1{
+    font-size:larger;
+    position: relative;
+    display: inline-block;
+    width:100%;
+    
+}
+.login{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mail,.pass{
+    height:30px;
+    width:100%;
+}
+.login{
+    
+    height:30px;
+    width:90px;
+}
+.login:hover{
+    background-image: linear-gradient(lightblue,lightpink);
+}
+.reg{
+    margin-left: 5px;
+
+}
+.eye1{
+    
+    position: absolute;
+    margin-top:-27px;
+    margin-left:93%;
+    cursor: pointer;
+    
+}
+.passerror,.emailerror,.errormsg{
+    color: red;
+    font-size: medium;
+}
+.error_input{
+    border: solid red;
+}
+table{
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    border-collapse: collapse;
+    width: 100%;
+    background-image: linear-gradient(lightblue,#FD6585);
+}
+td,th{
+    border-style:solid;
+    text-align: center;
+    padding: 20px;}
+th{
+    text-align: center;
+}
+.logout,.clear{
+   
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lavender;
+   
+   
+}
+.logout{
+    margin-left: 94%;
+    
+    position: relative;
+}
+.clear{
+    margin-left: 85%;
+    position: absolute;
+    margin-bottom:0%;
+    
+}
+.logout:hover,.clear:hover{
+    background-image: linear-gradient(lavender,lightblue);
+}
+.list{
+    background-color: pink;
+}
+
+
