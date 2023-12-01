@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>example form</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"> </script>
+</head>
+<header  class="heading">
+    <h1>LOGO</h1>
+</header>
+<body class="register">
+    <main class="main">
+        <h2>Registration</h2>
+        <form class="form2" method="post" >
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" class="name" onkeydown="Enterkey(event,'email')" ><br>
+                <span id="error" class="errors"></span>
+            </div>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+
+                <input type="email" id="mail" class="email" name="email" onkeydown="Enterkey(event,'phone')" ><br>
+                <span id="emailerror" class="errors" ></span>
+            </div>
+            <div>
+                <label for="phone">Phone No</label><br>
+                <input type="tel" id="phone" class="phone" minlength="10" name="phone" onkeydown="Enterkey(event,'address')" ><br>
+                <span id="noerror" class="errors" ></span>
+            </div>
+            <label for="address">Address</label><br>
+            <textarea id="address" rows="3" class="address" onkeydown="Enterkey(event,'country')" ></textarea><br>
+            <span id="addresserror" class="errors"></span><br>
+            <label for="country">Country</label><br>
+            <select id="country" class="country" onkeydown="Enterkey(event,'skills')">
+                <option value="" hidden selected></option>
+                <option value="India">India</option>
+                <option value="US">US</option>
+            </select><br>
+            <span id="countryerror" class="errors"></span>
+            <p>Gender<br>
+            <div  id="Gender">
+                <input type="radio" name="Gender" value="Male" id="male">Male
+                <input type="radio" name="Gender" value="female" id="female">Female</p>
+            </div><span id="gendererror" class="errors"></span>
+            <p class="skills">Skills<br></p>
+            <div class="check" id="skills">
+                <input type="checkbox" id="HTML" name="skills" >HTML<br>
+                <input type="checkbox" id="CSS" name="skills" >CSS<br>
+                <input type="checkbox" id="Java Script" name="skills" >Java Script
+            </div><span id="skillserror" class="errors"></span>
+            <div class="btn">
+
+                <input type="button" value="Submit" id="submit" class="submit" name="submit" onclick="return validate();"  >
+                <input type="reset" value="Reset" class="reset">
+            </div>
+            
+        </form>
+    </main>
+</body>
+
+
+</html>
